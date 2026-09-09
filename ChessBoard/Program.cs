@@ -1,5 +1,5 @@
 ﻿using System;
-
+Console.WriteLine("Välkommen till att göra ditt egna schakbräde!");
 Console.Write("Välj en siffra mellan 3-50: ");
 string input = Console.ReadLine();
 
@@ -32,7 +32,6 @@ for (int row = 0; row < number2; row++)
         {
             Console.WriteLine("◼︎");
         }
-    }
+    } Console.WriteLine();
     
-Console.WriteLine();
 }
