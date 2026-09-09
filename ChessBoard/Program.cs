@@ -3,26 +3,26 @@
 Console.Write("Välj en siffra mellan 3-50: ");
 string input = Console.ReadLine();
 
-int size;
-if (!int.TryParse(input, out int size))
+
+if (!int.TryParse(input, out int number))
 {
     Console.WriteLine("Du måste skriva ett tal.");
     return;
 }
-if (size <3 || size > 50)
+if (number <3 || number > 50) //Fixade så den kollar om siffran är mellan 3-50
 {
     Console.WriteLine("Talet måste vara mellan 3-50!");
     return;
 }
 
-int number2 = size;
+int number2 = number;
 
 string white = "◻︎";
 string black = "◼︎";
 
 for (int i = 0; i < number2; i++)
 {
-    if (size % 2 == 0) //jämnt
+    if ((row + col) % 2 == 0) //jämnt ,fixade row + col för ett rutmönster
     {
         Console.WriteLine("◻︎");
     } else
