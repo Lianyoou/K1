@@ -22,12 +22,16 @@ string black = "◼︎";
 
 for (int i = 0; i < number2; i++)
 {
-    if ((row + col) % 2 == 0) //jämnt ,fixade row + col för ett rutmönster
+    for (int col = 0; col < number; col++)
     {
-        Console.WriteLine("◻︎");
-    } else
-    {
-        Console.WriteLine("◼︎");
+        if ((row + col) % 2 == 0) //jämnt ,fixade row + col för ett rutmönster
+        {
+            Console.WriteLine("◻︎");
+        }
+        else
+        {
+            Console.WriteLine("◼︎");
+        }
     }
     
 Console.WriteLine();
