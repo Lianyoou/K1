@@ -26,12 +26,13 @@ for (int row = 0; row < number2; row++)
     {
         if ((row + col) % 2 == 0) //jämnt ,fixade row + col för ett rutmönster
         {
-            Console.WriteLine("◻︎");
+            Console.Write(white + "◻︎"); //Fixade Write ist för WriteLine
         }
         else
         {
-            Console.WriteLine("◼︎");
+            Console.Write(black + "◼︎"); //Fixade Write ist för WriteLine
         }
-    } Console.WriteLine();
+    } 
+    Console.WriteLine();
     
 }
