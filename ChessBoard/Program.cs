@@ -3,7 +3,7 @@
 Console.Write("Välj en siffra mellan 3-50: ");
 string input = Console.ReadLine();
 
-int number;
+int size;
 if (!int.TryParse(input, out int size))
 {
     Console.WriteLine("Du måste skriva ett tal.");
@@ -15,14 +15,14 @@ if (size <3 || size > 50)
     return;
 }
 
-int number2 = number;
+int number2 = size;
 
 string white = "◻︎";
 string black = "◼︎";
 
 for (int i = 0; i < number2; i++)
 {
-    if (number % 2 == 0) //jämnt
+    if (size % 2 == 0) //jämnt
     {
         Console.WriteLine("◻︎");
     } else
