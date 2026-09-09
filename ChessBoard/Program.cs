@@ -20,7 +20,7 @@ int number2 = number;
 string white = "◻︎";
 string black = "◼︎";
 
-for (int i = 0; i < number2; i++)
+for (int row = 0; row < number2; i++)
 {
     for (int col = 0; col < number; col++)
     {
