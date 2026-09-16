@@ -2,7 +2,7 @@
 K1 - Projektinlämning
 
 Programmet ska skriva ut ett NxN schackbrädemönster baserat på användarens input N (3–50) i C#. .NET 10.0 samt NuGet-paketet Spectre.Console version 0.57.2 används. 
-
+Vi valde Spectre.Console version 0.57.2 för att tydligt formatera våran text. 
 För att klona projektet öppna terminalen och kör:
 `git clone REPO-ADRESSEN
 cd REPO-NAMNET
