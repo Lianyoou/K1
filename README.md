@@ -18,7 +18,7 @@ När programmet körs kommer det fråga om ett heltal från användaren och skap
 
 I ChessBoard klassen finns metoden `ReadSize()` som läser in input och skriver ut felmeddelanden, och `RenderBoard()` som tar det vidare och skriver ut själva schackbrädet. Metoderna anropas sedan i `Program.cs`. 
 
-
+Arbetet med att utveckla programmet K1/ChessBoard delade vi på genom samarbete att dela skärm och commita till varandra med tydliga meddelande.   
 
 
 
