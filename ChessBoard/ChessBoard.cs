@@ -6,13 +6,14 @@ using Spectre.Console;
 
 namespace ChessBoard
 {
+    //Class with functional method under it.
     public class ChessBoard
     {
         public ChessBoard()
         {
 
         }
-
+        //Metod
         public int ReadSize()
         {
             int number = 0;
