@@ -18,7 +18,7 @@ dotnet run
 
 Ersätt `REPO-ADRESSEN` och `REPO-NAMNET` med uppgifterna från repositoryt.
 
-`dotnet build` bygger projektet och återställer automatiskt de NuGet-paket som används. I detta projekt färgas felmeddelanden röda med metoden `MarkupLine()` i Spectre.Console för att göra felmeddelanden tydligare. `dotnet run` kör därefter programmet.
+`dotnet build` bygger projektet och återställer automatiskt de NuGet-paket som används. I detta projekt färgläggs felmeddelanden röda med metoden `MarkupLine()` i Spectre.Console för att göra felmeddelanden tydligare. `dotnet run` kör därefter programmet.
 
 ## Användning och exempel
 
