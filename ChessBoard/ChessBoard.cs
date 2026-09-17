@@ -6,14 +6,11 @@ using Spectre.Console;
 
 namespace ChessBoard
 {
-    //Class with functional method under it.
+ 
     public class ChessBoard
     {
-        public ChessBoard()
-        {
-
-        }
-        //Method asking user for valid number with bool that makes "valid = true" then quitting loop.
+       
+        //Method that asks user for valid number input, using a boolean to stop the loop when "valid = true"
         public int ReadSize()
         {
             int number = 0;
@@ -41,7 +38,7 @@ namespace ChessBoard
 
             return number;
         }
-        //Creating and printing the chessboard to the console.
+        //printing out the chessboard in the console.
         public void RenderBoard(int number)
         {
             string white = "◻︎";

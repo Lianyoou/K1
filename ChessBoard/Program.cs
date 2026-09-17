@@ -12,11 +12,14 @@ class Program
         Console.OutputEncoding = Encoding.UTF8;
 
         Console.WriteLine("Välkommen till att göra ditt egna schackbräde!");
-        //Creating the object "ChessBoard".
+
+        //Creating an object from the class ChessBoard.
         ChessBoard board = new ChessBoard();
-        //User input valid number (3-50).
+
+        //calling ReadSize() and storing values in size  
         int size = board.ReadSize();
-        //Writing out chessboard in console.
+
+        //combining ReadSize() and RenderBoard()'s functions
         board.RenderBoard(size);
     }
 }
