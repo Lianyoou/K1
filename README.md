@@ -1,3 +1,5 @@
+[Svenska](README.sv.md)
+
 # K1
 K1 - Project submission
 
