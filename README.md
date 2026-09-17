@@ -6,10 +6,10 @@ The program prints an N×N chessboard pattern based on the user’s input N (3�
 To clone the project, open a terminal and run:
 
 Kod:
-git clone REPO-ADDRESS
-cd REPO-NAME
-dotnet build
-dotnet run
+git clone REPO-ADDRESS,
+cd REPO-NAME,
+dotnet build,
+dotnet run,
 Replace REPO-ADDRESS and REPO-NAME with the details from the repository.
 
 dotnet build builds the project and automatically restores the required NuGet packages. In this project, error messages are colored red using the MarkupLine method from Spectre.Console to make them more noticeable. dotnet run then executes the program.
