@@ -11,7 +11,7 @@ class Program
     {   //Setting UTF-8 so that ◻︎ and ◼︎ display correctly.
         Console.OutputEncoding = Encoding.UTF8;
 
-        Console.WriteLine("Välkommen till att göra ditt egna schackbräde 2.0!");
+        Console.WriteLine("Välkommen till att göra ditt egna schackbräde!");
         //Creating the object "ChessBoard".
         ChessBoard board = new ChessBoard();
         //User input valid number (3-50).
