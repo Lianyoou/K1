@@ -17,7 +17,7 @@ dotnet run
 ```
 Replace `REPO-ADDRESS` and `REPO-NAME` with the details from the repository.
 
-`dotnet build` builds the project and automatically restores the required NuGet packages. In this project, error messages are colored red using the MarkupLine method from Spectre.Console to make them more noticeable. `dotnet run` then executes the program.
+`dotnet build` builds the project and automatically restores the required NuGet packages. In this project, error messages are colored red using the `MarkupLine()` method from Spectre.Console to make them more noticeable. `dotnet run` then executes the program.
 
 ## Usage and example
 
