@@ -40,6 +40,4 @@ We developed the K1/ChessBoard program through collaborative work, sharing scree
 
 ## Technical choices
 
-User input was validated with `int.TryParse` to only get integers and a number 3-50. To make the pattern the `%` operator was used in a loop counting up to the input value to print white square on even numbers and black ones on odd numbers. The program does not have a lot of code but OOP practises such as making classes and methods, as well as Solid principles was still used so it will be easier to understand, develop, maintain and expand in the future. 
-
-
+User input was validated with `int.TryParse()` to only accept integers between 3 and 50. To create the Chessboard pattern, the `%` operator was used in a loop counting up to the input value to print a white square on even numbers and a black one on odd numbers. The program does not have a lot of code but OOP practices such as using classes and methods, as well as some SOLID principles, were still used to make it easier to understand, develop, maintain and expand in the future. 
