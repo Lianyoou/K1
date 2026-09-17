@@ -1,3 +1,5 @@
+[English](README.md)
+
 # K1
 K1 - Projektinlämning
 
