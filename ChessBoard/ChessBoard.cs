@@ -13,7 +13,7 @@ namespace ChessBoard
         {
 
         }
-        //Metod
+        //Method asking user for valid number with bool that makes "valid = true" then quitting loop.
         public int ReadSize()
         {
             int number = 0;
@@ -41,6 +41,7 @@ namespace ChessBoard
 
             return number;
         }
+        //Creating and printing the chessboard to the console.
         public void RenderBoard(int number)
         {
             string white = "◻︎";
