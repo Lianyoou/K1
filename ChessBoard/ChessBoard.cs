@@ -21,7 +21,7 @@ namespace ChessBoard
             while (!valid)
             {
                 Console.Write("Välj nummer mellan (3-50):");
-                string input = Console.ReadLine();
+                string? input = Console.ReadLine();
 
 
 
