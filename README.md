@@ -29,10 +29,10 @@ Programmet ska skriva ut ett NxN schackbrädemönster baserat på användarens i
 Vi valde Spectre.Console version 0.57.2 för att tydligt formatera våran text. 
 
 För att klona projektet öppna terminalen och kör:
-git clone REPO-ADRESSEN
-cd REPO-NAMNET
-dotnet build
-dotnet run`
+git clone REPO-ADRESSEN,
+cd REPO-NAMNET,
+dotnet build,
+dotnet run,
 
 Ersätt `REPO-ADRESSEN` och `REPO-NAMNET` med uppgifterna från repositoryt.
 
