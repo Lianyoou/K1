@@ -32,7 +32,7 @@ When the program runs, it will ask the user for an integer and generate a chessb
 ```
 ## Code structure
 
-In the ChessBoard class, the `ReadSize()` method handles input and prints error messages, while `RenderBoard()` takes the validated value and prints the actual chessboard. These methods are then called from Program.cs.
+In the ChessBoard class, the `ReadSize()` method handles input and prints error messages, while `RenderBoard()` takes the validated value and prints the actual chessboard. These methods are then called from `Program.cs`.
 
 ## Git workflow
 
