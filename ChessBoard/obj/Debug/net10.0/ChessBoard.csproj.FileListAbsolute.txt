@@ -32,3 +32,7 @@ C:\Users\nilss\K1\ChessBoard\obj\Debug\net10.0\ChessBoard.csproj.AssemblyReferen
 C:\Users\nilss\K1\ChessBoard\bin\Debug\net10.0\Spectre.Console.dll
 C:\Users\nilss\K1\ChessBoard\bin\Debug\net10.0\Spectre.Console.Ansi.dll
 C:\Users\nilss\K1\ChessBoard\obj\Debug\net10.0\ChessBoard.csproj.Up2Date
+C:\Users\bilia\K1\K1\ChessBoard\bin\Debug\net10.0\Spectre.Console.dll
+C:\Users\bilia\K1\K1\ChessBoard\bin\Debug\net10.0\Spectre.Console.Ansi.dll
+C:\Users\bilia\K1\K1\ChessBoard\obj\Debug\net10.0\ChessBoard.csproj.AssemblyReference.cache
+C:\Users\bilia\K1\K1\ChessBoard\obj\Debug\net10.0\ChessBoard.csproj.Up2Date

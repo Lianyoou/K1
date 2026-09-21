@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "OipGkdVwvvA=",
+  "dgSpecHash": "uU9/3t7/Dws=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nilss\\K1\\ChessBoard\\ChessBoard.csproj",
+  "projectFilePath": "C:\\Users\\bilia\\K1\\K1\\ChessBoard\\ChessBoard.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\nilss\\.nuget\\packages\\spectre.console\\0.57.2\\spectre.console.0.57.2.nupkg.sha512",
-    "C:\\Users\\nilss\\.nuget\\packages\\spectre.console.ansi\\0.57.2\\spectre.console.ansi.0.57.2.nupkg.sha512"
+    "C:\\Users\\bilia\\.nuget\\packages\\spectre.console\\0.57.2\\spectre.console.0.57.2.nupkg.sha512",
+    "C:\\Users\\bilia\\.nuget\\packages\\spectre.console.ansi\\0.57.2\\spectre.console.ansi.0.57.2.nupkg.sha512"
   ],
   "logs": []
 }
