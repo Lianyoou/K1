@@ -11,7 +11,7 @@ namespace ChessBoard
     {
        
         //Method that asks user for valid number input, using a boolean to stop the loop when "valid = true"
-        public int ReadSize()
+        public static int ReadSize()
         {
             int number = 0;
             bool valid = false;
@@ -20,8 +20,6 @@ namespace ChessBoard
             {
                 Console.Write("Välj nummer mellan (3-50):");
                 string? input = Console.ReadLine();
-
-
 
                 if (!int.TryParse(input, out number))
                 {
@@ -39,10 +37,8 @@ namespace ChessBoard
             return number;
         }
         //printing out the chessboard in the console.
-        public void RenderBoard(int number)
+        public static void RenderBoard(int number)
         {
-            string white = "◻︎";
-            string black = "◼︎";
 
             for (int col = 0; col < number; col++)
             {
@@ -50,11 +46,11 @@ namespace ChessBoard
                 {
                     if ((row + col) % 2 == 0)
                     {
-                        Console.Write(white + " ");
+                        Console.Write("◻ ");
                     }
                     else
                     {
-                        Console.Write(black + " ");
+                        Console.Write("◼︎ ");
                     }
                 }
                 Console.WriteLine();

@@ -13,14 +13,11 @@ class Program
 
         Console.WriteLine("Välkommen till att göra ditt egna schackbräde!");
 
-        //Creating an object from the class ChessBoard.
-        ChessBoard board = new ChessBoard();
-
         //calling ReadSize() and storing values in size  
-        int size = board.ReadSize();
+        int size = ChessBoard.ReadSize();
 
         //combining ReadSize() and RenderBoard()'s functions
-        board.RenderBoard(size);
+        ChessBoard.RenderBoard(size);
     }
 }
 
